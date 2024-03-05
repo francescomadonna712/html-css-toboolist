@@ -1,1 +1,61 @@
-body{background-color: black;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_logo{
+    font-family: sans-serif;
+    padding-left: 20px;
+    background-color: rgb(63, 49, 49);
+    height: 80px;
+    width: 100%;
+    margin: auto;
+}
+
+.logo{
+    display: inline-block;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.titolo{
+    display: inline-block;
+    line-height: 100px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+body{
+    background-color: bisque;
+}
+
+.container_button{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(95, 28, 28);
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#task{
+    padding: 5px;
+    background-color: aqua;
+    color: white;
+    border-radius: 10%;
+    border: 0;
+    margin-left: 25px;
+}
+
+#section{
+    padding: 5px;
+    background-color: white;
+    color: lightgray;
+    border-radius: 10%;
+    border: 1px solid lightgray;
+}
+
+
+
+
+
